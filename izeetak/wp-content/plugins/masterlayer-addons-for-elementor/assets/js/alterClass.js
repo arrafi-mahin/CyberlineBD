@@ -1,0 +1,1 @@
+!function(s){s.fn.alterClass=function(a,e){if(-1===a.indexOf("*"))return this.removeClass(a),e?this.addClass(e):this;var t=new RegExp("\\s"+a.replace(/\*/g,"[A-Za-z0-9-_]+").split(" ").join("\\s|\\s")+"\\s","g");return this.each(function(a,e){for(var i=" "+e.className+" ";t.test(i);)i=i.replace(t," ");e.className=s.trim(i)}),e?this.addClass(e):this}}(jQuery);
