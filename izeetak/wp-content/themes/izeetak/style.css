@@ -6057,11 +6057,7 @@ html.disable-scroll {
 .sidebar-btn {
   margin-top: 40px;
 }
-.sidebar-btn .side-menu-btn {
-  margin: 0 5px;
-  background: #42d9be !important;
-  color: #ffffff;
-}
+
 /* .sidebar-btn .side-menu-btn:hover {
   background: #1989fb !important;
   transition: 0.4s;
@@ -6109,6 +6105,47 @@ html.disable-scroll {
 }
 .master-slider-icon a .p2 {
   animation: v-fade-after 2s infinite ease-in-out;
+}
+
+/* Application Form */
+#featured-title .inner-wrap-form {
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: hidden;
+  width: 100%;
+  padding: 60px 0;
+}
+.text-important {
+  color: #94183c;
+}
+.input-check {
+  display: flex;
+  align-items: top;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.input-check input {
+  width: auto !important;
+  margin-top: 10px !important;
+  margin-right: 10px !important;
+}
+.mail-nb {
+  font-size: 14px;
+  color: #94183c;
+  font-weight: 400;
+}
+.your-file {
+  margin-top: 20px;
+}
+.your-file input {
+  background: #eef3f7;
+  border-radius: 10px;
+  width: 100%;
+  padding: 25px 30px;
+  margin-top: 20px;
 }
 @media (max-width: 720px) {
   .master-slider-home {
