@@ -6058,11 +6058,9 @@ html.disable-scroll {
   margin-top: 40px;
 }
 
-/* .sidebar-btn .side-menu-btn:hover {
-  background: #1989fb !important;
-  transition: 0.4s;
-  animation: backwards;
-} */
+.sidebar-btn .side-menu-btn {
+  margin-bottom: 10px;
+}
 .master-slider-home {
   background-image: url(../../uploads/2021/11/cover.png);
   background-repeat: no-repeat;
@@ -6106,7 +6104,79 @@ html.disable-scroll {
 .master-slider-icon a .p2 {
   animation: v-fade-after 2s infinite ease-in-out;
 }
+/* Trusted Source */
+.trusted-source {
+  max-width: 950px;
+  background: url(../../uploads/2021/08/trusted-source.jpg);
+  padding: 0 5px 5px 10px;
+  /* color: #ffffff !important; */
+}
+.trusted-source .trusted-source-items {
+  background: #6754e8;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.trusted-source-items .trusted-source-item {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: white;
+  margin: 20px 0;
+}
+.trusted-source-item img {
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 60px !important;
+}
+.trusted-source .border-center {
+  display: inline-block;
+  margin: 0 15px;
+  border-bottom: 1px solid #c7c7c7;
+  width: 10%;
+}
+/* Response counter */
+.response-counter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.response-counter .card {
+  padding: 20px;
+  margin: 0 20px;
+  max-width: 350px;
+  color: white;
+}
+.card .card-icon {
+  color: #6754e8;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 100px;
+}
+.card .card-counter {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 0 0 5px #00000082;
+}
+.card .card-counter::after {
+  content: "+";
+}
+.card .card-title {
+  font-size: 20px;
+  font-weight: 600;
+}
 
+/* About  */
+.about-content {
+  padding: 40px 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-content .about-text {
+}
 /* Application Form */
 #featured-title .inner-wrap-form {
   position: relative;
@@ -6138,7 +6208,7 @@ html.disable-scroll {
   font-weight: 400;
 }
 .your-file {
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .your-file input {
   background: #eef3f7;
